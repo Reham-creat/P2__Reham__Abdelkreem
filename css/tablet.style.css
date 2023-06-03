@@ -1,0 +1,204 @@
+@media screen and (max-width:992px) and (min-width:767px) {
+    *{
+        font-family: "Raleway", sans-serif;
+    }
+
+body {
+    margin:0;
+}
+
+/*---Navigation---*/
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+nav a {
+    justify-content: space-around;
+}
+
+ /*-- ACCOMMODATIONS--*/
+
+ .accom-pop {
+    justify-content: unset;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.accom {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: unset;
+    padding-right: 20px;
+}
+
+.accom h2 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.accom-card { 
+    width: 43%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#accom-card-1 {
+    margin-left: 25px;
+}
+
+#accom-card-4 {
+    margin-left: 50px;
+}
+
+#accom-card-3,
+#accom-card-6 {
+    margin-right: 0px;
+}
+
+.accom-card-wrap {
+    display: flex;
+    justify-content: unset;
+    flex-wrap: wrap;
+}
+
+#amina {
+    object-position: unset;
+}
+
+#la-mer {
+    object-position: unset;
+}
+
+.card-text-wrap h3 {
+    font-size: 11px;
+}
+
+.card-text-wrap p {
+    font-size: 10px;
+}
+
+.show-more {
+    margin-left: 28px;
+}
+
+/*-- POPULAR--*/
+
+.pop-wrap {
+    display: unset;
+    flex-direction: row;
+    margin: 0;
+    border-radius: unset;
+    width: 100%;
+}
+
+.pop-card-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+.pop-heading h2 {
+    display: unset;
+    font-size: 20px;
+    margin-left: 28px;
+    justify-content: unset;
+}
+
+.pop-card {
+    display: flex;
+    margin-right: 20px;
+    width: 28%;
+}
+
+.pop-heading i {
+    display: unset;
+    margin-right: 5%;
+    margin-left: 16px;
+}
+
+.text-wrap-pop h3 {
+    font-size: 12px;
+}
+
+.text-wrap-pop p {
+    font-size: 12px;
+}
+
+.card-text-wrap-pop h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.card-text-wrap-pop p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+ 
+#au-coer {
+    font-size: 11px;
+}
+
+.pop-image {
+    width: 46%;
+}
+
+/*-- ACTIVITIES--*/
+
+.activ-title {
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.activ-title-card {
+    font-size: 13px;
+}
+
+.activ-card {
+     width: 40%;
+}
+
+.activ-card-wrap {
+    padding-left: 10px;
+    justify-content: space-around;
+}
+
+.activ-wrap-stack {
+    width: 45%;
+}
+
+#activ-card-2 {
+    margin-bottom: 15px;
+}
+
+#activ-card-1  {
+    margin-bottom: 20px;
+}
+#img-3 {
+    object-position: unset;
+    height: 90px;
+}
+
+/*-- FOOTER--*/
+
+footer {
+    margin: 48px;
+    justify-content: space-evenly;
+}
+
+#footer-1 {
+    margin-right: 20px;
+}
+
+#footer-2 {
+    margin-right: 20px;
+}   
+
+#footer-3 {
+    margin-right: 29%;
+}
+}
